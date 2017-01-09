@@ -2392,7 +2392,7 @@ def error(delta):
     for deltaelement in delta:
         sumerr += deltaelement**2
 
-    sumerr = math.sqrt(error)
+    sumerr = math.sqrt(sumerr)
 
     return sumerr
 
